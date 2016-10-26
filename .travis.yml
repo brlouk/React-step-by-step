@@ -1,3 +1,7 @@
 language: node_js
 node_js:
   - 'stable'
+install:
+  - cd ./step2-add-redux
+  - npm install
+  - npm run build
