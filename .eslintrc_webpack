@@ -1,0 +1,14 @@
+{
+    "plugins": [
+        "react",
+        "babel"
+    ],
+    "rules": {
+        "react/jsx-curly-spacing": "off",
+        "babel/object-curly-spacing": "off",
+        "react/prop-types" : "off",
+        "react/jsx-filename-extension": "off",
+        "react/jsx-space-before-closing": "off",
+        "quotes": "off"
+    }
+}

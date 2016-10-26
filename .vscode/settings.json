@@ -1,0 +1,20 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    // The number of spaces a tab is equal to.
+    "editor.tabSize": 2,
+    // The default end of line character.
+    "files.eol": "\n",
+    "eslint.options": {
+        "plugins": [
+            "react"
+        ],
+        "rules": {
+            "react/jsx-curly-spacing": "off",
+            "babel/object-curly-spacing": "off",
+            "react/prop-types": "off",
+            "react/jsx-filename-extension": "off",
+            "react/jsx-space-before-closing": "off",
+            "quotes": "off"
+        }
+    }
+}
