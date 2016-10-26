@@ -12,11 +12,11 @@ export class App extends Component {
   }
 }
 
-function mapStateToProps(state) {
+const mapStateToProps = state => {
   return {
     app: state.app
   };
-}
+};
 
 export default connect(
   mapStateToProps
